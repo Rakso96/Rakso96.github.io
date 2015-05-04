@@ -236,7 +236,7 @@ nav ul li a.btnKontakt-white {
 .Index-Portfolio{
 	width: 100%;
 	padding-bottom: 100px;
-	background-image: url("img/grabber_bg.jpg");
+	background-image: url("img/grabber_bg_ny.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -304,7 +304,7 @@ nav ul li a.btnKontakt-white {
 	color: #7F7E7E;
 }
 
-.Portfolio-Item a{
+#Kontakt-Link{
 	color: #FFFFFF;
 	background-color: #000000;
 	font-size: 25px;
@@ -319,7 +319,7 @@ nav ul li a.btnKontakt-white {
 	border-radius: 5px;
 }
 
-.Portfolio-Item a:hover{
+#Kontakt-Link:hover{
 	transition: 0.2s ease;
 	-webkit-transition: 0.2s ease;
 	-moz-transition: 0.2s ease;
