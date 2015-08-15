@@ -3,15 +3,17 @@ $(window).scroll(function(){
 	var wScroll = $(this).scrollTop();
 	var gOpacity = 1; //Grabber-Background opacity
 
-	if(wScroll / 10 < 30){ //Om wScroll / 8 är högre än bildens 40% som används på rad 6 för att bilden ska scrolla i y led.
+	
+	/*if(wScroll / 10 < 30){ //Om wScroll är högre än bildens 40% som används för att bilden ska scrolla i y led.
 		$("#Grabber-Background").css("background-position","0% " + (wScroll / 10) + "%");
 	}
 
-	if(wScroll / 8 > 30){//Om wScroll / 10 redan e högre så var där.
+	if(wScroll / 8 > 30){//Om redan e högre så var där.
 		$("#Grabber-Background").css("background-position","0% " + 23 + "%");
 	}
+	*/
 	
-	gOpacity = gOpacity - wScroll/720; //Make the background more black as more as we scroll down
+	gOpacity = gOpacity - wScroll/720; //Gör bilden svart (Opacity) medans vi scrollar ner.
 	$("#Grabber-Background").css("opacity", gOpacity);
 	
 	
